@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-heading {
+            text-align: center;
+            color: #333;
+        }
+
+        .content {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Our Web Page</h1>
+    </header>
+
+    <nav>
+        <a href="#problem-statement">Problem Statement</a>
+        <a href="#solution">Solution</a>
+        <a href="#market-ready">Market Ready</a>
+    </nav>
+
+    <section id="problem-statement">
+        <h2 class="section-heading">Problem Statement</h2>
+        <div class="content">
+            <p>This section explains the problem we aim to solve.</p>
+            <!-- Add your image for the problem statement below -->
+            <img src="path/to/your/problem-image.jpg" alt="Problem Statement Image">
+        </div>
+    </section>
+
+    <section id="solution">
+        <h2 class="section-heading">Solution</h2>
+        <div class="content">
+            <p>This section describes the solution to the problem.</p>
+            <!-- Add your image for the solution below -->
+            <img src="path/to/your/solution-image.jpg" alt="Solution Image">
+        </div>
+    </section>
+
+    <section id="market-ready">
+        <h2 class="section-heading">Market Ready</h2>
+        <div class="content">
+            <p>This section highlights the market readiness of the solution.</p>
+            <!-- Add your image for market-ready below -->
+            <img src="path/to/your/market-ready-image.jpg" alt="Market Ready Image">
+        </div>
+    </section>
+
+</body>
+
+</html>
