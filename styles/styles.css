@@ -51,8 +51,8 @@ section {
 }
 
 .content img {
-    width: 100%;           /* Make the image span the full width of the container */
-    height: 300px;         /* Fixed height for all images */
+    width: 90%;           /* Make the image span the full width of the container */
+    height: auto;         /* Fixed height for all images */
     object-fit: cover;     /* Maintain aspect ratio and cover the set size */
     margin-top: 15px;
 }
