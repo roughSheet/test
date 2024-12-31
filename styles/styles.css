@@ -56,6 +56,40 @@ section {
     object-fit: cover;     /* Maintain aspect ratio and cover the set size */
     margin-top: 15px;
 }
+/* Left-aligned content for About Us */
+.left-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.left-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Team Member Styles */
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+}
+
+.team-member p {
+    font-size: 18px;
+    font-weight: bold;
+}
 
 /* Welcome Section - Background Image */
 #welcome {
